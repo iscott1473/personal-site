@@ -4,6 +4,6 @@ import convert from 'htmr'
 
 export default withRouteData(({project}) => (
     <div>
-        {convert(project.content)}
+        {convert(project.contents)}
     </div>
 ))

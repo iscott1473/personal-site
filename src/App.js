@@ -8,7 +8,6 @@ import SettingIcon from './partials/Settings.js'
 import Header from './partials/Header.js'
 import Footer from './partials/Footer.js'
 import './styles/app.css'
-import './scripts/parallax.js'
 
 const warning = () => {
   alert("Warning, under construction")
@@ -24,9 +23,6 @@ const App = () => (
         <Routes />
       </div>
       <Footer />
-      <script>
-        {window.addEventListener('DOMContentLoaded', warning, false)}
-      </script>
     </div>
   </Router>
 )
