@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none
+}
+.header{
+  position: fixed;
+  z-index: 1;
+  padding: 5px 35px;
+  top: 1.8vh;
+  left: 2vw;
+  color: #2f2f28;
+  width: 90%;
+  height: 5vh;
+  box-sizing: border-box;
+}
+.header a{
+  color: #2f2f28;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 30px;
+}
+.header a:hover{
+  color: #AF1C1C;
+}
+
+.footer a{
+  text-decoration: none;
+  padding: 1rem; 
+  color: #F0EFF0;
+}
+.footer{
+  height: 20vh;
+  width: 100%;
+}
+
+.settingsIcon {
+  cursor: pointer;
+  font-size: 60px;
+  left:1vw;  
+  color: #2f2f28;
+  position: fixed;
+  z-index: 2;
+}
+.settingsIcon:hover{
+  color: #AF1C1C;
+}
+.primary-style{
+  background-color: #F0EFF0;
+  color: #2f2f28;
+}
+.primary-style-invert{
+  background-color: #2f2f28;
+  color: #F0EFF0;
+}
+.secondary-style{
+  background-color: #AF1C1C;
+  color: #2f2f28;
+}
+.secondary-style-invert{
+  background-color: #F0EFF0;
+  color: #AF1C1C;
+}
+.tirtiary-style{
+  background-color: #31A2AC;
+  color: #2f2f28;
+}
+.tirtiary-style-invert{
+  background-color: #F0EFF0;
+  color: #31A2AC;
+}
+.border{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2f2f28;
+  border-radius: 5px;
+  box-shadow: 10px 10px;
+}
+.main-font{
+  font-family: 'Fjalla One', sans-serif;
+}
+.secondary-font{
+  font-family: 'Raleway', sans-serif;
+}
+.project-contents{
+  float: left;
+  width: 10vh;
+  height: 10vh;
+  margin: 5vh;
+  text-align: center
+}

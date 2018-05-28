@@ -1,0 +1,55 @@
+.resumeGrid{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh repeat(3, 50vh) 10vh;
+  grid-template-areas:
+    "white-space" 
+    "mySkills"
+    "education"
+    "work"
+    "download";
+}
+
+.skills{
+  grid-area: mySkills;
+  margin: 0 10%;
+  overflow: hidden;
+}
+.education{
+  grid-area: education; 
+  margin: 0 10%; 
+}
+.work{
+  grid-area: work;
+  margin: 0 10%;
+}
+.download{
+  grid-area: download;
+  margin: 0 10%;
+}
+
+.s-contents{
+  position: relative;
+  top: 0;
+  width: 80%;
+  height: 60%;
+}
+.e-contents{
+  position: relative;
+  top: 0;
+  width: 50%;
+  height: 60%;
+}
+.w-contents{
+  position: relative;
+  top: 0;
+  width: 50%;
+  height: 40%;
+}
+.d-contents{
+  position: relative;
+  top: 0;
+  width: 80%;
+}

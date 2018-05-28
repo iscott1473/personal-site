@@ -1,0 +1,63 @@
+.homeGrid{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh 75vh 50vh 50vh;
+  grid-template-areas: 
+    "video"
+    "aboutMe"
+    "skill"
+    "portfolio";
+}
+
+.video{
+  grid-area: video;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.aboutMe{
+  grid-area: aboutMe;
+  margin: 0 10%;
+  position: relative;
+}
+.mySkills{
+  grid-area: skill;
+  margin: 0 10%;
+}
+.portfolio{
+  grid-area: portfolio;
+  margin: 0 10%;
+}
+
+.heroText{
+  position: absolute;
+  top: 30%;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+.heroText h1{
+  font-size: 175px;
+}
+.am-contents{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 70%;
+}
+.ms-contents{
+  position: relative;
+  top: 0px;
+  height: 80%;
+}
+.p-contents{
+  position: relative;
+  top: 0px;
+  left: 10%;
+  width: 80%;
+  height: 95%;
+}
